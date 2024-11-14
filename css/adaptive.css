@@ -1,0 +1,282 @@
+@media (max-width: 1024px) {
+    .header__nav {
+        flex-wrap: wrap;
+        gap: 20px;
+        margin: 20px;
+    }
+
+    .first-screen {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .first-screen-bc {
+        padding-top: 150px;
+        max-width: 100%;
+    }
+
+    .first-screen__title {
+        font-size: 32px;
+        text-align: center;
+    }
+
+    .header__btn {
+        width: auto;
+        padding: 10px 20px;
+    }
+
+    .menu__container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .kitchen__container-dishes {
+        width: 100%;
+        max-width: 500px;
+    }
+
+    .techrider__title {
+        font-size: 32px;
+    }
+
+    .techrider-buttons {
+        max-width: 100%;
+        padding: 20px;
+    }
+
+    .button-content__btn {
+        width: 100%;
+    }
+
+    .sound-engineer {
+        margin-left: 50px;
+    }
+
+    .sound-engineer__title {
+        font-size: 28px;
+    }
+
+}
+
+@media (max-width: 768px) {
+    .header__nav ul {
+        flex-direction: column;
+        gap: 10px;
+        text-align: center;
+    }
+
+    .announcements__fest {
+        grid-template-columns: 1fr;
+        /* padding: 20px; */
+    }
+
+    .first-screen__title {
+        font-size: 28px;
+    }
+
+    .first-screen-btn {
+        width: 130px;
+    }
+
+    .events {
+        flex-direction: column;
+        flex-wrap: nowrap;
+    }
+
+    .banquets__img img {
+        width: 100%;
+    }
+
+    .techrider__title {
+        font-size: 28px;
+    }
+
+    .techrider-buttons {
+        padding: 15px;
+    }
+
+    .techrider__container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .sound-engineer {
+        margin-left: 0;
+    }
+
+    .sound-engineer__container {
+        flex-direction: column;
+    }
+
+    .button-content__btn {
+        font-size: 16px;
+    }
+
+    .wk, .tg {
+        width: 35px;
+        height: 35px;
+    }
+
+    .contact__container {
+        flex-direction: column;
+        align-items: center;
+    }
+    .contact__info, .contact__map {
+        max-width: 100%;
+    }
+    .tourists-btn {
+        margin-top: 15px;
+    }
+
+    .banquets-btn-detailed {
+        margin-bottom: 15px;
+    }
+    .banquets, .tourists {
+        margin: auto;
+    }
+    .kitchen__container-btn {
+        margin-left: 42%;
+    }
+    .announcements__fest {
+        margin: auto;
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 576px) {
+    .container {
+        padding: 0 10px;
+    }
+
+    .header__nav {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .first-screen-bc {
+        padding-top: 100px;
+        padding-left: 20px;
+    }
+
+    .first-screen__title {
+        font-size: 24px;
+    }
+
+    .header__btn, .first-screen-btn {
+        width: 100%;
+        padding: 10px;
+    }
+
+    .announcements {
+        margin: 0;
+    }
+    .announcements__fest {
+        margin: auto;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .announcements__btn-nearest, .announcements__btn-soon {
+        width: 100%;
+    }
+
+    .menu__container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .kitchen__container-dishes {
+        width: 100%;
+        max-width: 500px;
+    }
+
+    .tourists-btn {
+        margin-top: 15px;
+    }
+
+    .banquets-btn-detailed {
+        margin-bottom: 15px;
+    }
+    .banquets, .tourists {
+        margin: auto;
+    }
+    .kitchen__container-btn {
+        margin-left: 35%;
+    }
+}
+
+@media (max-width: 480px) {
+
+    .announcements__fest {
+        margin: auto;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .kitchen__container *{
+        font-size: 15px;
+    }
+
+    .banquets, .tourists {
+        margin: auto;
+    }
+
+
+    .techrider__title {
+        font-size: 24px;
+    }
+
+    .techrider__btn {
+        width: 200px;
+        height: 34px;
+        font-size: 12px;
+    }
+
+    .tourists-btn {
+        margin-top: 15px;
+    }
+
+    .banquets-btn-detailed {
+        margin-bottom: 15px;
+    }
+
+    .techrider-buttons {
+        padding: 10px;
+        font-size: 12px;
+    }
+
+    .techrider-buttons h3 {
+        font-size: 16px;
+    }
+
+    .button-content__btn {
+        font-size: 14px;
+        height: 60px;
+        padding-left: 20px;
+    }
+
+    .sound-engineer__title {
+        font-size: 24px;
+    }
+
+    .wk, .tg {
+        width: 30px;
+        height: 30px;
+    }
+
+    .poster__container {
+        margin: auto;
+    }
+
+    .poster__title {
+        margin-bottom: 25px;
+    }
+
+    .gallery__container {
+        margin: auto;
+    }
+    .gallery__title {
+        margin-bottom: 25px;
+    }
+    .kitchen__container-btn {
+        margin-left: 35%;
+    }
+}
